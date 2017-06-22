@@ -1,0 +1,8 @@
+<div class='lessonHider'>
+    <li>
+        <input type='checkbox' ng-true-value="{{lesson}}" ng-false-value="{{lesson}}"></input>
+        {{ lesson }} 
+        <!--<input ng-model='lesson'></input> -->
+    </li>
+    <button ng-click="dayAlert({ lesson: lesson, day: lessonDay})">Which day?</button>
+</div>
